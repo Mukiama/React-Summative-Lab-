@@ -4,16 +4,16 @@ import Bookshop from "./Bookshop"
 import AdminPortal from "./AdminPortal"
 
 const App =()=> (
-  <>
+  
   <BrowserRouter>
     <Routes>
       <Route path= "/" element={<Home/>}/>
-      <Route path= "/Bookshop" element= {<Bookshop/>}/>
-      <Route path= "/AdminPortal" element= {<AdminPortal/>} />
+      <Route path= "/bookshop" element= {<Bookshop/>}/>
+      <Route path= "/adminPortal" element= {<AdminPortal/>} />
 
     </Routes>
   </BrowserRouter>
-  </>
+
 )
 
 export default App
