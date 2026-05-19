@@ -4,9 +4,9 @@ import NavBar from "./NavBar"
 function Home(){
     return (
         <>
-        <main>
+            <NavBar />
             <h1>Freedom Books</h1>
-        </main>
+        
         </>
     )
 }
